@@ -1,12 +1,12 @@
 # 第3次練習-練習-PC3
 >
->學號：1234567
+>學號：110111213
 ><br />
->姓名：王小明
+>姓名：丁紹庭
 ><br />
 >作業撰寫時間：180 (mins，包含程式撰寫時間)
 ><br />
->最後撰寫文件日期：2022/10/12
+>最後撰寫文件日期：2022/06/01
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -19,41 +19,19 @@
 
     答案：
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
-
-```csharp
-public void mt_getResult(){
-    ...
-}
-```
-
-若要於內文中標示部分網頁檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
-
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
-```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
+|  使用案例:公告  |    |
+|  ----  | ----  |
+|  1.當委員需要新增公告時，登入系統並建立新公告</br>
+2.公告委員需公告設定性質與內容</br>
+3.如果本公告能回應那設定論壇為如果不能回應設定為公告 </br>
+4.當使用者需要回應訊息，登入系統並在論壇裡回應  |  addProclamation()</br>permissions()</br></br>respond()  |
+|   |   |
+|  合約1 :proclamation()  |
+|  ----  |
+|  操作:addProclamation()</br>交互操作:使用案例:公告</br>前置條件:當Role等於manage時才可建立Proclamation</br>後置條件:先需要讓使用者輸入permissions=1 或permissions=2，proclamation()才可以紀錄文字 |
+|  合約2 :respond()  |
+|  ----  |
+|  操作:respond()</br>交互操作:使用案例:公告</br>前置條件:無</br>後置條件:如果permissions=1時proclamation()會記錄全部人輸入的文字，當permissions=2，proclamation()只會紀錄idpermissions=2的文字 |
 
 ## 個人認為完成作業須具備觀念
 
