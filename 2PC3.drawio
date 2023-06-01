@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="-hRJhHmZXARKxoS9K5JC" name="第1頁">
+        <mxGraphModel dx="1148" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="group;fontColor=#120c0c;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="10" width="680" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;1.當委員需要新增公告時，登入系統並建立新公告&lt;/div&gt;&lt;div&gt;2.公告委員需公告設定性質與內容&lt;/div&gt;&lt;div&gt;3.如果本公告能回應那設定論壇為如果不能回應設定為公告&amp;nbsp;&lt;/div&gt;&lt;div&gt;4.當使用者需要回應訊息，登入系統並在論壇裡回應&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;fontColor=#120c0c;labelBackgroundColor=none;" vertex="1" parent="6">
+                    <mxGeometry y="37.142857142857146" width="544" height="222.8571428571429" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;使用案例:公告&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;gradientColor=default;strokeColor=default;labelBackgroundColor=none;fontColor=#120c0c;" vertex="1" parent="6">
+                    <mxGeometry width="680" height="37.142857142857146" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;addProclamation()&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;permissions()&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;respond()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;gradientColor=default;align=left;labelBackgroundColor=none;fontColor=#120c0c;" vertex="1" parent="6">
+                    <mxGeometry x="544" y="37.142857142857146" width="136" height="222.8571428571429" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="group;fontColor=#120c0c;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="10" y="280" width="670" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;合約1 :proclamation()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontColor=#120c0c;fillColor=none;gradientColor=default;" vertex="1" parent="9">
+                    <mxGeometry width="670" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;操作:addProclamation()&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;交互操作:使用案例:&lt;span style=&quot;background-color: initial;&quot;&gt;公告&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;前置條件:當Role等於manage時才可建立Proclamation&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;後置條件:先需要讓使用者輸入permissions=1 或permissions=2，respond()才可以紀錄文字 &lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontColor=#120c0c;fillColor=none;gradientColor=default;align=left;" vertex="1" parent="9">
+                    <mxGeometry y="50" width="670" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group;labelBackgroundColor=none;fontColor=#120c0c;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="15" y="500" width="670" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;合約1 :&lt;span style=&quot;&quot;&gt;respond&lt;/span&gt;&lt;span style=&quot;&quot;&gt;()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontColor=#120c0c;fillColor=none;gradientColor=default;" vertex="1" parent="10">
+                    <mxGeometry width="670" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;操作:respond()&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;交互操作:使用案例:公告&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;前置條件:無&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;後置條件:respond()記錄文字，如果permissions=1時會respond()記錄全部人輸入的文字，當permissions=2，respond()只會紀錄idpermissions=2者的文字&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontColor=#120c0c;fillColor=none;gradientColor=default;align=left;" vertex="1" parent="10">
+                    <mxGeometry y="65" width="670" height="195" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
